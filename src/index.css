@@ -28,6 +28,12 @@ nav {
   gap: 1rem;
 }
 
+.category{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1rem;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -35,4 +41,9 @@ nav {
 
 .card-content {
   flex-grow: 1;
+}
+
+.card-action {
+  display: flex;
+  justify-content: center;
 }
