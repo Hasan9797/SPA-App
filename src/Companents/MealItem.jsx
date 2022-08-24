@@ -12,7 +12,7 @@ function FilterCategoryItem(props) {
             <h3 className="card-title"><b>{strMeal}</b></h3>
         </div>
         <div className="card-action">
-          <Link to={`/meal/${idMeal}`} className="btn">Watch Recipe</Link>
+          <Link to={`/mael/${idMeal}`} className="btn">Watch Recipe</Link>
         </div>
   </div>
   )
